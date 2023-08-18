@@ -10,18 +10,7 @@ body {
     color: #343A40;
 }
 
-.main-container {
-    border: #343A40 solid 5px;
-    border-radius: 10px;
-    max-width: 1200px;
-    padding: 20px;
-    margin: 0 auto;
-    background-color: #343A40;
-    color: #F8F9FA;
-
-}
-
-.second-container {
+.main-container, .second-container, .third-container {
     border: #343A40 solid 5px;
     border-radius: 10px;
     max-width: 1200px;
@@ -31,33 +20,13 @@ body {
     color: #F8F9FA;
     margin-bottom: 15px;
     margin-top: 15px;
-
 }
-
-.third-container {
-    border: #343A40 solid 5px;
-    border-radius: 10px;
-    max-width: 1200px;
-    padding: 20px;
-    margin: 0 auto;
-    background-color: #343A40;
-    color: #F8F9FA;
-    margin-bottom: 15px;
-    margin-top: 15px;
-
-}
-
 
 .overview-title {
     display: flex;
     font-size: 1.7em;
 }
 
-.overview-content {
-    display: inline-block;
-    justify-content: space-between;
-
-}
 
 .items {
     display: flex;
@@ -83,19 +52,7 @@ input#calories {
     font-weight: 700;
 }
 
-button#add {
-    width: 20%;
-    background-color: #F8F9FA;
-    color: #343A40;
-    padding: 10px 5px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border: 3px solid #343A40;
-    border-radius: 4px;
-    font-weight: 700;
-}
-
-button#delete {
+button#add, button#delete {
     width: 20%;
     background-color: #F8F9FA;
     color: #343A40;
@@ -113,12 +70,7 @@ button#delete {
     font-weight: 700;
 }
 
-.added-list-items {
-    display: flex;
-    justify-content: space-between;
-}
-
-.history-content {
+.added-list-items, .history-content {
     display: flex;
     justify-content: space-between;
 }
