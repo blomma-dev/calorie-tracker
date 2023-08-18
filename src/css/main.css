@@ -6,13 +6,13 @@
 }
 
 body {
-    background-color: #D8DBE2;
-    color: #373F51;
+    background-color: #F8F9FA;
+    color: #343A40;
 }
 
 .topbox {
-    background-color: #373F51;
-    color: #ffffff;
+    background-color: #343A40;
+    color: #F8F9FA;
     padding: 25px;
     margin: 0 auto;
     border-radius: 10px;
@@ -28,37 +28,37 @@ body {
 }
 
 .main-container {
-    border: #373F51 solid 5px;
+    border: #343A40 solid 5px;
     border-radius: 10px;
     max-width: 1200px;
     padding: 20px;
     margin: 0 auto;
-    background-color: #373F51;
-    color: #ffffff;
+    background-color: #343A40;
+    color: #F8F9FA;
 
 }
 
 .second-container {
-    border: #373F51 solid 5px;
+    border: #343A40 solid 5px;
     border-radius: 10px;
     max-width: 1200px;
     padding: 20px;
     margin: 0 auto;
-    background-color: #373F51;
-    color: #ffffff;
+    background-color: #343A40;
+    color: #F8F9FA;
     margin-bottom: 15px;
     margin-top: 15px;
 
 }
 
 .third-container {
-    border: #373F51 solid 5px;
+    border: #343A40 solid 5px;
     border-radius: 10px;
     max-width: 1200px;
     padding: 20px;
     margin: 0 auto;
-    background-color: #373F51;
-    color: #ffffff;
+    background-color: #343A40;
+    color: #F8F9FA;
     margin-bottom: 15px;
     margin-top: 15px;
 
@@ -85,7 +85,7 @@ input#food {
     padding: 10px 5px;
     margin: 8px 0;
     box-sizing: border-box;
-    border: 3px solid #373F51;
+    border: 3px solid #343A40;
     border-radius: 4px;
     font-weight: 700;
 }
@@ -95,31 +95,31 @@ input#calories {
     padding: 10px 5px;
     margin: 8px 0;
     box-sizing: border-box;
-    border: 3px solid #373F51;
+    border: 3px solid #343A40;
     border-radius: 4px;
     font-weight: 700;
 }
 
 button#add {
     width: 20%;
-    background-color: #ffffff;
-    color: #373F51;
+    background-color: #F8F9FA;
+    color: #343A40;
     padding: 10px 5px;
     margin: 8px 0;
     box-sizing: border-box;
-    border: 3px solid #373F51;
+    border: 3px solid #343A40;
     border-radius: 4px;
     font-weight: 700;
 }
 
 button#delete {
     width: 20%;
-    background-color: #ffffff;
-    color: #373F51;
+    background-color: #F8F9FA;
+    color: #343A40;
     padding: 10px 5px;
     margin: 8px 0;
     box-sizing: border-box;
-    border: 3px solid #373F51;
+    border: 3px solid #343A40;
     border-radius: 4px;
     font-weight: 700;
 }
