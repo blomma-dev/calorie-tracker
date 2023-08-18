@@ -1,31 +1,141 @@
-@import url('https://fonts.googleapis.com/css2?family=Geologica&family=Lexend:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;700&display=swap');
 
 * {
-    font-family: 'Geologica', sans-serif;
-    font-family: 'Lexend', sans-serif;
+    font-family: 'Maven Pro', sans-serif;
+    box-sizing: border-box;
 }
 
 body {
+    background-color: #D8DBE2;
+    color: #373F51;
+}
+
+.topbox {
     background-color: #373F51;
-    color: #D8DBE2;
+    color: #ffffff;
+    padding: 25px;
+    margin: 0 auto;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-size: larger;
+
 }
 
-button.main-button {
-    outline-color: #A9BCD0 !important; 
-    background-color: #A9BCD0 !important;
-    color: #1B1B1E !important;
+.main-container {
+    border: #373F51 solid 5px;
+    border-radius: 10px;
+    max-width: 1200px;
+    padding: 20px;
+    margin: 0 auto;
+    background-color: #373F51;
+    color: #ffffff;
+
 }
 
-button.second-button {
-    outline-color: #A9BCD0 !important; 
-    background-color: #A9BCD0 !important;
-    color: #373F51 !important;
+.second-container {
+    border: #373F51 solid 5px;
+    border-radius: 10px;
+    max-width: 1200px;
+    padding: 20px;
+    margin: 0 auto;
+    background-color: #373F51;
+    color: #ffffff;
+    margin-bottom: 15px;
+    margin-top: 15px;
+
 }
 
-.brand-text {
-    margin: 45px 0;
+.third-container {
+    border: #373F51 solid 5px;
+    border-radius: 10px;
+    max-width: 1200px;
+    padding: 20px;
+    margin: 0 auto;
+    background-color: #373F51;
+    color: #ffffff;
+    margin-bottom: 15px;
+    margin-top: 15px;
+
+}
+
+
+.overview-title {
+    display: flex;
+    font-size: 1.7em;
+}
+
+.overview-content {
+    display: inline-block;
+    justify-content: space-between;
+
+}
+
+.items {
+    display: flex;
+}
+
+input#food {
+    width: 100%;
+    padding: 10px 5px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #373F51;
+    border-radius: 4px;
     font-weight: 700;
-    color: #A9BCD0 !important;
 }
 
+input#calories {
+    width: 35%;
+    padding: 10px 5px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #373F51;
+    border-radius: 4px;
+    font-weight: 700;
+}
 
+button#add {
+    width: 20%;
+    background-color: #ffffff;
+    color: #373F51;
+    padding: 10px 5px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #373F51;
+    border-radius: 4px;
+    font-weight: 700;
+}
+
+button#delete {
+    width: 20%;
+    background-color: #ffffff;
+    color: #373F51;
+    padding: 10px 5px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #373F51;
+    border-radius: 4px;
+    font-weight: 700;
+}
+
+.added-list {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+}
+
+.added-list-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.history-content {
+    display: flex;
+    justify-content: space-between;
+}
